@@ -59,8 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav .container {
 	display: grid;
 	grid-template-columns: 6fr 3fr 2fr;
-	padding: 1rem;
+	padding: 1rem 0;
 	align-items: center;
+}
+
+#main-nav .container:first-child {
+	line-height: 0;
 }
 
 #main-nav .logo {
