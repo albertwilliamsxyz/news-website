@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav .container {
 	display: grid;
 	grid-template-columns: 6fr 3fr 2fr;
-	padding: 1rem 0;
+	padding: 1rem 2rem;
 	align-items: center;
 }
 
@@ -103,7 +103,6 @@ h1, h2, h3, h4, h5, h6 {
 #showcase {
 	color: #fff;
 	background: #333;
-	padding: 2rem;
 	position: relative;
 }
 

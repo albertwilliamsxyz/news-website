@@ -1,8 +1,13 @@
+#main-nav {
+	text-align: center;
+}
+
 #main-nav .social {
 	display: none;
 }
 
 #main-nav .container {
+	height: 18vh;
 	grid-template-columns: 1fr;
 	grid-gap: 1.5rem;
 }
@@ -25,11 +30,16 @@
 	grid-column: 1;
 }
 
+#showcase .showcase-container {
+	text-align: center;
+	grid-template-columns: 1fr;
+}
+
 @media (max-width: 600px) {
 	#showcase .showcase-container,
 	#home-articles .articles-container,
 	#main-footer .footer-container,
-	#article .container .page-container {
+	.container .page-container {
 		grid-template-columns: 1fr;
 	}
 
